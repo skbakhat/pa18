@@ -1,0 +1,12 @@
+.aligning{
+
+    width: 350px;
+    padding: 10px;
+}
+.aligning >h5{
+    font-size: 18px;
+}
+.aligning >p{
+    font-size: 12px;
+    font-weight: 500;
+}

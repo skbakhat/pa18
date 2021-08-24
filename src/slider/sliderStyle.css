@@ -1,0 +1,40 @@
+.mainn{
+    background: rgb(237,14,14);
+    background: linear-gradient(79deg, rgba(237,14,14,1) 0%, rgba(255,158,0,0.941500794653799) 100%);
+ margin-bottom: 50px;
+}
+.sliderr{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin: 80px;
+
+}
+.centrr{
+    margin-left: 150px;
+    display: flex;
+    
+}
+@media screen and (max-width: 600px) {
+    .centrr{
+      display: block;
+      margin: 0px;
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .content{
+        
+        text-align: center;
+      display: block;
+      margin: 0px;
+      
+    }
+  }
